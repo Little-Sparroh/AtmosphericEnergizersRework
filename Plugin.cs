@@ -7,8 +7,8 @@ using UnityEngine;
 [MycoMod(null, ModFlags.IsClientSide)]
 public class SparrohPlugin : BaseUnityPlugin
 {
-    public const string PluginGUID = "sparroh.atmosphericenergizerschange";
-    public const string PluginName = "AtmosphericEnergizersChange";
+    public const string PluginGUID = "sparroh.atmosphericenergizersrework";
+    public const string PluginName = "AtmosphericEnergizersRework";
     public const string PluginVersion = "1.0.0";
 
     internal static new ManualLogSource Logger;

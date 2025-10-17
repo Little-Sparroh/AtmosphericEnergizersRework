@@ -3,9 +3,9 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "Sparroh"
-name = "AtmosphericEnergizersChange"
+name = "AtmosphericEnergizersRework"
 description = "Changes Atmospheric Energizers from refilling the Magazine, to refilling the Reserves."
-websiteUrl = "https://github.com/Little-Sparroh/AtmosphericEnergizersChange"
+websiteUrl = "https://github.com/Little-Sparroh/AtmosphericEnergizersRework"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -17,8 +17,8 @@ readme = "README.md"
 outdir = "build"
 
 [[build.copy]]
-source = "bin/Release/net48/AtmosphericEnergizersChange.dll"
-target = "BepInEx/plugins/AtmosphericEnergizersChange.dll"
+source = "bin/Release/net48/AtmosphericEnergizersRework.dll"
+target = "BepInEx/plugins/AtmosphericEnergizersRework.dll"
 
 [[build.copy]]
 source = "CHANGELOG.md"
